@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session03</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Đăng kí tài khoản</h1>
+    <!-- action là địa chỉ ulr để gửi thông tin dc nhập lên xử lí -->
+     <!-- method get khi gửi dữ liệu thì nó hiện thị dữ liệu ta trên ulr -->
+      <!-- method post khi gửi dữ liệu đi thì nó gửi ngầm dữ liệu trên body  -->
+    <form action="1.xu-li.html" method="get">
+        <!-- ô nhập liệu -->
+         <!-- placeholder mô tả ô nhập liệu -->
+          <!-- id, label nhãn của input -->
+          <label for="">Input style text</label>
+        <input type="text" placeholder="Nhập vào đây" name="" value="Giá trị của ô nhập liệu" id="useName">
+        <!-- nút đăng kí -->
+        <button>Đăng kí</button>
+        <br>
+
+        <label for="">Input type password</label>
+        <input type="password" placeholder="Mật khẩu">
+        <br>
+
+        <label for="">Input type number</label>
+        <input type="number" placeholder="Nhập giá tiền ">
+        <br>
+
+        <!-- thuộc tính required bắt buộc nhập trc khi gửi -->
+        <label for="">Email</label>
+        <input type="email" placeholder="Nhập email" required>
+        <br>
+
+        <label for="">Ngày sinh</label>
+        <input type="date">
+        <br>
+
+        <label for="">Ngày giờ</label>
+        <input type="datetime-local">
+        <br>
+
+        <label for="">Chọn 1 trong nhiều (vd: Giới tính)</label>
+        <!-- muốn chọn 1 trong nhiều thì name phải giống nhau -->
+        <input type="radio" name="sex" id=""> Nam
+        <input type="radio" name="sex" id=""> Nữ
+        <br>
+
+        <label for="">Chọn nhiều cái ví dụ sở thích</label>
+        <input type="checkbox" name="" id=""> Bóng đá
+        <input type="checkbox" name="" id=""> Bóng chuyền
+        <input type="checkbox" name="" id=""> Bóng bầu dục
+        <br>
+
+        <label for="">thẻ lựa chọn 1 trong nhiều cái sổ xuống</label>
+        <select name="" id="">
+            <option value="">Java</option>
+            <option value="">Php</option>
+            <option value="">Html</option>
+            <option value="">Css</option>
+            <option value="">python</option>
+        </select>
+        <br>
+
+        <input type="file" name="" id="">
+        <button type="submit">Gửi đi</button>
+        <br>
+
+        <label for="">Tâm thư, ghi chú</label>
+        <textarea name="" id=""></textarea>
+    </form>
+</body>
+</html>

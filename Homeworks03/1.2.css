@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Nen-vang {
+    background-color: bisque;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.Tieu-de {
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Bang {
+    color: blue;
+    margin-top: 10px;
+    padding: 10px;
+}

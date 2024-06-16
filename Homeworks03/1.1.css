@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+} 
+
+.Khung-xanh {
+    margin: 0 auto;
+    background-color: aqua;
+    width: 400px;
+    height: 180px;
+}
+
+.Khung-trắng {
+    margin: 10Px 15px 10px;
+    background-color: white;
+}
+
+.Khung-đỏ {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: orange;
+}
+
+.Bảng-to {
+    color: blue;
+}
+
+.Bảng-nhỏ {
+    color: orange;
+}
